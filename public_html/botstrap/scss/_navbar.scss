@@ -60,6 +60,7 @@
   @include font-size($navbar-brand-font-size);
   text-decoration: if($link-decoration == none, null, none);
   white-space: nowrap;
+  max-width: 196px;
 
   &:hover,
   &:focus {
