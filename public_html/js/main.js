@@ -1,6 +1,13 @@
 $(document).ready(function () {
 
-
+if ($('.team-slider').length > 0) {
+        $('.team-slider').owlCarousel({
+            autoplay: false,
+            loop: true,
+            autoplayHoverPause: true,
+            items: 1
+        });
+    }
 
 
 // animation start

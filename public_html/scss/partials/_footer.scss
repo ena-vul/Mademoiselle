@@ -1,0 +1,19 @@
+footer{
+    .footer-social{
+        a{
+            margin-left: 15px;
+            margin-right: 15px;
+            font-size: 21px;
+            transition: 0.3s linear;
+            &:hover{
+                transform: scale(2);
+            }
+        }
+        
+    }
+    .footer-copy{
+        font-size: 12px;
+        
+    }
+}
+
