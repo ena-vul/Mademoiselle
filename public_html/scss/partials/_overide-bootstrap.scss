@@ -5,7 +5,12 @@ html{
 }
 $font-size-base: 1.6rem;
 
-$body-color:#1e1e1e;
+$primary:#1e1e1e;
+$secondary: #ECD9D9;
+$info: #F5F5F5;
+
+$body-color:$primary;
+
 $grid-gutter-width: 1.2rem;
 
 $grid-breakpoints: (
@@ -41,6 +46,7 @@ $spacers: (
   9: $spacer * 4.5,
   10: $spacer * 5,
 );
+
 
 
 $navbar-light-color: #1E1E1E;
