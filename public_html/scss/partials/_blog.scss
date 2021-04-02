@@ -41,3 +41,16 @@
     }
 }
 
+
+.pagination{
+    .page-item{
+        .page-link{
+            border: none;
+            font-family: $bodoni;
+            &:hover{
+                background-color: $secondary;
+            }
+        }
+    }
+}
+
