@@ -4,16 +4,18 @@ footer{
             margin-left: 15px;
             margin-right: 15px;
             font-size: 21px;
-            transition: 0.3s linear;
-            &:hover{
-                transform: scale(2);
+            span{
+                transition: 0.2s linear;
+                &:hover{
+                    transform: scale(1.5);
+                }
             }
         }
-        
+
     }
     .footer-copy{
         font-size: 12px;
-        
+
     }
 }
 

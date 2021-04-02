@@ -5,10 +5,41 @@ img{
     max-width: 100%;
 }
 
+.image-placeholder{
+    position: relative;
+    overflow: hidden;
+}
+.image-placeholder:after{
+    content: '';
+    display: block;
+    padding-top: 56.62%;
+}
+.image-placeholder img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.size-1by1:after{
+    padding-top: 100%;
+}
+
+.size-4by3:after{
+    padding-top: 75%;
+}
+
 body{
     font-family: $body-font;
     font-weight: 400;
+    padding-top: 61.5px;
+    @media(min-width:768px){
+        padding-top: 77.8px;
+    }
 }
+
 .section-title{
     @media(min-width:768px){
         font-size: 30px;
@@ -64,5 +95,98 @@ body{
     line-height: 17px;
     letter-spacing: 0.5px;
     background-color: transparent;
+}
+
+
+
+/*ANIMACIJJE*/
+
+
+.animation{
+    opacity: 0;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideLeft {
+    0%{
+        opacity:0;
+        transform:translateX(50%);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+.slideLeft{
+    animation-name: slideLeft;
+    animation-duration: 1s;
+}
+
+
+@keyframes slideRight {
+    0%{
+        opacity:0;
+        transform:translateX(-50%);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+.slideRight{
+    animation-name: slideRight;
+    animation-duration: 1s;
+}
+
+@keyframes slideUp {
+    0%{
+        opacity:0;
+        transform:translateY(50%);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.slideUp{
+    animation-name: slideUp;
+    animation-duration: 1s;
+}
+
+@keyframes slideDown {
+    0%{
+        opacity:0;
+        transform:translateY(-50%);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+.slideDown{
+    animation-name: slideDown;
+    animation-duration: 1s;
+}
+
+
+@keyframes fadeIn {
+    0%{
+        transform:scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform:scale(1);
+        opacity: 1;
+    }
+}
+
+.fadeIn{
+    animation-name: fadeIn;
+    animation-duration: 1s;
 }
 

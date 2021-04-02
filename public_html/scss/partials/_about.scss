@@ -1,0 +1,39 @@
+.about-section-title{
+    @media(min-width:576px){
+        font-size: 35px;
+        line-height: 40px; 
+        margin-bottom: 35px;
+    }
+    @media(min-width:992px){
+        font-size: 44px;
+        line-height: 50px;
+        margin-bottom: 50px; 
+    }
+   
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    max-width: 475px;
+}
+
+.about-section-text{
+    @media(min-width:992px){
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 50px; 
+    }
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 29px;
+}
+
+.search-input{
+    display: block;
+    padding: 20px 24px;
+    border: 1px solid $primary;
+    margin-bottom: 43px;
+    width: 100%;
+}
+

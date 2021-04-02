@@ -23,11 +23,17 @@
             margin-bottom: 12px;
         }
         .blog-description-title{
+            @media(min-width:576px){
+                font-size: 16px;
+                line-height: 24px;
+                height: 48px; 
+            }
+            display: block;
             font-family: $lato;
-            font-size: 16px;
-            line-height: 24px;
+            font-size: 14px;
+            line-height: 18px;
             font-weight: 400;
-            height: 48px;
+            height: 54px;
             overflow: hidden;
             text-transform: uppercase;
             text-decoration: none;

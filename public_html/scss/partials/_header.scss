@@ -45,6 +45,9 @@ header{
             &:hover{
                 border-bottom: 1px solid $secondary;
             }
+            &.active{
+                border-bottom: 1px solid $secondary;
+            }
         }
         }
     }

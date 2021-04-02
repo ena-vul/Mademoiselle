@@ -1,12 +1,18 @@
 
-.home-services{
+.services-section{
     margin-bottom: 111px;
     .services-item{
-        .services-img:nth-of-type(odd){
-            @media(min-width:768px){
-                 order: 1;   
-                   
+        &:nth-of-type(odd){
+            .services-img{
+                @media(min-width:768px){
+                    order: 1;   
+
+                }
             }
+            .services-description{
+                background-color: $info;
+            }
+
         }
         .services-description{
             @media(min-width:576px){
@@ -22,10 +28,8 @@
                 padding: 143px 95px 95px;  
             }
             padding: 60px 40px 70px;
-            background-color: $info;
-            &:nth-of-type(odd){
-                background-color: $secondary;
-            }
+            background-color: $secondary;
+
             .services-description-title{
                 @media(min-width:576px){
                     font-size: 30px;
