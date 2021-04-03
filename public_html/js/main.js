@@ -55,6 +55,9 @@ if ($('.team-slider').length > 0) {
                         required: true,
                         email: true
                     },
+                    subject: {
+                        required: true
+                    },
                     message: {
                         required: true,
                         maxlength: 255
@@ -63,15 +66,18 @@ if ($('.team-slider').length > 0) {
                 },
                 messages: {
                     name: {
-                        required: 'Name* is required field!!!'
+                        required: 'Name* is required field.'
                     },
                     email: {
-                        required: 'Email* is required field!!!',
-                        email: 'Please insert valid Email address!!!'
+                        required: 'Email* is required field.',
+                        email: 'Please insert valid Email address.'
+                    },
+                    subject: {
+                        required: 'Subject* is required field.'
                     },
                     message: {
-                        required: 'Message* is required field!!!',
-                        maxlength: 'Max Message length is 255 characters !!!'
+                        required: 'Message* is required field.',
+                        maxlength: 'Max Message length is 255 characters.'
 
                     }
 
