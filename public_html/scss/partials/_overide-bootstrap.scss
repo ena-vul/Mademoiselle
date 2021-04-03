@@ -49,8 +49,17 @@ $spacers: (
 
 
 
-$navbar-light-color: #1E1E1E;
-$navbar-light-hover-color: #1E1E1E;
-$navbar-light-active-color: #1E1E1E;
+$navbar-light-color: $primary;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
 
 $pagination-padding-x: 15px;
+
+$input-bg: rgba(#253D61, 0.02);
+$input-height: 50px;
+$input-placeholder-color: $primary;
+$input-padding-y:  13px;
+$input-border-color: transparent;
+$input-focus-border-color:  $secondary;
+$input-focus-box-shadow:  $secondary;                                      
+$input-font-weight: 300;                    

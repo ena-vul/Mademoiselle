@@ -1,0 +1,43 @@
+.contact{
+    margin: 106px 0;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    .contact-form{
+        .form-group{
+            margin-bottom: 19px;
+        }
+        .contact-title{
+            @media(min-width:768px){
+                font-size: 30px;
+                line-height: 45px;
+                letter-spacing: 5px;
+                margin-bottom: 30px;
+            }
+            font-family: $bodoni;
+            font-size: 25px;
+            line-height: 35px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+    }
+    .btn-more:hover{
+        background-color: $secondary;
+    }
+}
+
+.info-section{
+    padding: 63px 0 43px;
+    margin-bottom: 46px;
+    .info-text{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
