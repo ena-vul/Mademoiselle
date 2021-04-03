@@ -57,3 +57,58 @@
     }
 }
 
+
+//Single service page
+.single-service-section{
+    @media(min-width:576px){
+        padding-top: 50px;
+    }
+    @media(min-width:768px){
+        padding-top: 70px;
+    }
+    @media(min-width:992px){
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    @media(min-width:1200px){
+        padding-top: 170px;
+        padding-bottom: 181px;
+    }
+    padding-top: 30px;
+    padding-bottom: 50px;
+    figure{
+        margin-bottom: 20px;
+    }
+    .services-content{
+    h3{
+            @media(min-width:576px){
+                font-size: 35px;
+                line-height: 40px;
+            }
+            @media(min-width:768px){
+                font-size: 25px;
+                line-height: 30px;
+            }
+            @media(min-width:992px){
+                font-size: 35px;
+                line-height: 40px;
+            }
+            @media(min-width:1200px){
+                font-size: 44px;
+                line-height: 50px;
+            }
+            font-size: 30px;
+            line-height: 35px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 26px;
+        }
+        p{
+            font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        }
+}
+}
+
+
