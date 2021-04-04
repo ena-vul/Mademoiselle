@@ -29,13 +29,38 @@
         font-weight: 300;
         margin-bottom: 29px;
     }
+    figure{
+        @media(min-width:576px){ 
+            margin-bottom: 45px;
+        }
+        @media(min-width:576px){ 
+            margin-bottom: 66px;
+        }
+        margin-bottom: 25px;
+    }
 }
 
-.search-input{
-    display: block;
-    padding: 20px 24px;
-    border: 1px solid $primary;
-    margin-bottom: 43px;
-    width: 100%;
+
+.about-section{
+    .search-field{
+        position: relative;
+        .search-input{
+            display: block;
+            padding: 20px 24px;
+            border: 1px solid $primary;
+            margin-bottom: 43px;
+            width: 100%;
+        }
+        .search-icon{
+                display: block;
+                position: absolute;
+                bottom: 23px;
+                right: 22px;
+                font-size: 20px;
+                text-decoration: none;
+                color: lighten($primary, 50%);
+            }
+
+    }
 }
 

@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 if ($('.team-slider').length > 0) {
         $('.team-slider').owlCarousel({
-            autoplay: false,
+            autoplay: true,
             loop: true,
             autoplayHoverPause: true,
             items: 1
